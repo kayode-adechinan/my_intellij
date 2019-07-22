@@ -76,4 +76,10 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="gdl.swagger" value="compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'&#10;compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'" description="Gradle Swager dependencies" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
