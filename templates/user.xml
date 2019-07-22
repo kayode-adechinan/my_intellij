@@ -64,4 +64,16 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="dkc.java.postgres.gradle" value="version: '3'&#10;services:&#10;&#10;  ade-postgres:&#10;    image: &quot;postgres&quot;&#10;    container_name: &quot;my_postgres&quot;&#10;    ports:&#10;      - &quot;5432:5432&quot;&#10;    restart: always&#10;&#10;  app:&#10;    build: .&#10;    volumes:&#10;      - .:/app&#10;      - ~/.m2:/root/.m2&#10;    working_dir: /app&#10;    ports:&#10;      - 8080:8080&#10;    command: ./gradlew clean bootRun&#10;    depends_on:&#10;      - ade-postgres" description="Simple docker compose file for java, postgres and gradle" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
 </templateSet>
