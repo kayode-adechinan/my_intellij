@@ -82,4 +82,16 @@
       <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="sb.setup.pagination" value="spring.data.web.pageable.one-indexed-parameters=true" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
 </templateSet>
