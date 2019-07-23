@@ -104,4 +104,10 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="gdl.jwt" value="compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'" description="Jwt dependencie" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
